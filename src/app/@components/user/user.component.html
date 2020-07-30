@@ -1,5 +1,5 @@
 <div class="" [formGroup]="phoneForm">
-  <label for="">Name</label>
+  <label for="" >User Name</label>
   <input type="text" formControlName="name">
   <div formArrayName='phone'>
     <span *ngFor="let  r of phones.controls;let i=index" [formGroupName]='i'>
