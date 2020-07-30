@@ -1,0 +1,39 @@
+<p-dialog header="Title" [(visible)]="display" [style]="{width:'50vw'}">
+
+  <div class="col-12 col-md-12">
+    <div class="row">
+
+
+      <div class="input-group mb-3 col-md-4">
+        <input type="text" pInputText class="form-control" placeholder="Recipient's username">
+        <div class="input-group-append">
+          <span class="input-group-text">*</span>
+        </div>
+      </div>
+
+      <div class="input-group mb-3 col-md-4">
+        <input type="text" pInputText class="form-control" placeholder="Recipient's username">
+        <div class="input-group-append">
+          <span class="input-group-text">*</span>
+        </div>
+      </div>
+
+      <div class="input-group mb-3 col-md-4">
+        <input type="text" pInputText class="form-control" placeholder="Recipient's username">
+        <div class="input-group-append">
+          <span class="input-group-text">*</span>
+        </div>
+      </div>
+      <div class="input-group mb-3 col-md-4">
+        <textarea placeholder="Address" class="form-control" pInputTextarea></textarea>
+      </div>
+
+
+    </div>
+  </div>
+
+</p-dialog>
+
+
+
+<button type="button" (click)="showDialog()" pButton icon="pi pi-info-circle" label="Show"></button>

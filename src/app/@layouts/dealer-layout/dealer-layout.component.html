@@ -1,0 +1,41 @@
+<p-toolbar>
+  <div class="ui-toolbar-group-left">
+
+
+    <i class="ui-toolbar-separator pi pi-bars" (mouseover)="display=true" style="vertical-align: middle"></i>
+
+
+  </div>
+
+
+</p-toolbar>
+<!--
+<header class="header-layout">
+
+
+
+  <i class="pi pi-bars menu" (click)="display = true"></i>
+
+
+
+</header> -->
+
+<p-sidebar class="sidebar" [(visible)]="display" [baseZIndex]="10000">
+  <div class="text-center">
+    <img [src]="path" alt="" style="max-width: 60px;max-height:60px">
+  </div>
+
+  <ul>
+    <li (click)="display=false"> <i class="pi pi-home"></i> <a [routerLink]="['sub-dealer']"
+        [routerLinkActive]="['is-active']">Sub Dealer</a>
+    </li>
+    <li (click)="display=false"> <i class="pi pi-ticket"></i> <a [routerLink]="['vehicle']"
+        [routerLinkActive]="['is-active']">Vehicle</a></li>
+    <li (click)="display=false"><i class="pi pi-briefcase"></i> <a [routerLink]="['appointments']"
+        [routerLinkActive]="['is-active']">Appointments</a></li>
+  </ul>
+
+</p-sidebar>
+<!-- <p-panelMenu [model]="items" [style]="{'width':'300px'}"></p-panelMenu> -->
+
+<router-outlet></router-outlet>

@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "fName": "sankar",
+      "address": [
+        {
+          "city": "ffd",
+          "pincode": "sdfsdf",
+          "state": "fsdf",
+          "country": "fsdfs"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

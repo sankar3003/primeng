@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,html{
+  height:100%;
+}
+
+.header-layout{
+
+height: 60px;
+background: black;
+}
+ .menu{
+  padding-top: 20px;
+  padding-left: 20px;
+  color: yellow;
+}
+
+
+
+
+
+
+.sidebar ul li{
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.sidebar ul li:hover{
+ background-color: lightblue;
+}
